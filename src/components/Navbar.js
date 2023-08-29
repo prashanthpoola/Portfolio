@@ -151,7 +151,7 @@ const MobileMenu = styled.div`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
-const MobileMenuLink = styled(LinkR)`
+const MobileMenuLink = styled.a`
   color: ${({ theme }) => theme.white};
   font-weight: 500;
   cursor: pointer;
